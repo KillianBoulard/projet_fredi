@@ -1,0 +1,104 @@
+body {
+  background-color: #FFF;
+  color: #555;
+  margin: 0px;
+}
+
+.header {
+  height: 150px;
+background-color: red;
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+  
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.corps {
+  width:70%;
+  min-height: 800px;
+  background-color: #CCE8FF;
+  margin: 0 auto;
+  padding: 1px;
+}
+
+h2  {
+  text-align: center;
+}
+
+.cellule1 {
+	text-align:center;
+  width: 80%;
+  height: 450px;
+  background-color: #FFC271;
+  margin-left: 120px;
+  margin-top: 59px;
+}
+
+label
+{
+	display: block;
+}
+
+
+.cellule2 {
+  width: 40%;
+  height: 300px;
+  background-color: #FFC271;
+  margin-left: 120px;
+  margin-top: 59px;
+}
+
+.menu {
+  background-color: #FFC271;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left:-300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.menu ul {
+  list-style: none;
+  width: auto;
+  margin: auto;
+  margin-left: -40px;
+  text-align: center;
+  background-color: #FFC271;
+
+}
+
+.menuleft {
+  border-radius: 5px 0px 0px 0px;
+}
+
+.menuright {
+  border-radius: 0px 5px 0px 0px;
+}
+
+.menu li {
+  float: left;
+  width: 150px;
+  height: auto;
+  line-height: 30px;
+}
+
+
+.menu li a {
+  display: block;
+  margin: 0;
+  background-color: #24565C;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1.2em;
+
+}
+
+.menu a:hover {
+  background-color: #138C99;
+}
+
+.menu li a.active {
+
+}
